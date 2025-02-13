@@ -4,7 +4,7 @@ This header handles the common operations with packages:
     - Installation
     - Removal
     - Purging
-Implementations in `dependencies.cc`.
+Implementations in `packages.cc`.
 */
 
 #ifndef PACKAGES_HH
