@@ -1,6 +1,6 @@
 /*
 --== dependencies.cc ==--
-Implementations for the `dependencies.hh`.
+Implementations for `dependencies.hh`.
 */
 
 #include "dependencies.hh"
