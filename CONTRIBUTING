@@ -1,0 +1,40 @@
+# Contributing
+Thanks for deciding to contribute to the PSI project and splitOS as a whole!
+
+*(Last updated: 02/12/2025 [DD/MM/YYYY])*
+## Code Style Guidelines
+### All
+- 4 space indentation.
+- Placed in `psi`.
+- Start the file with a block comment.
+    - Put the name of the file in [name]: `--== [name] ==--`
+    - Put a description of what the file is for.
+        - If it's a source file, put "Implementations for `[sister header]`."
+        - If it's a header file, put "Implementations in `[sister source file]`."
+    - Example:
+    ```
+    /*
+    --== packages.hh ==--
+    This header handles the common operations with packages:
+        - Installation
+        - Removal
+        - Purging
+    Implementations in `dependencies.cc`.
+    */
+    ```
+
+### Source Files
+- Extension `.cc`.
+
+### Header Files
+- Extension `.hh`.
+- Add header guards.
+    - Example:
+    ```
+    #ifndef DEPENDENCIES_HH
+    #define DEPENDENCIES_HH
+
+    ... header code here ...
+
+    #endif // DEPENDENCIES_HH
+    ```
