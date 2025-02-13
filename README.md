@@ -1,5 +1,5 @@
 # libpsi
-`libpsi` is the library for the PSI package manager.
+> The library for the PSI package manager.
 
 # Hierarchy
 ## Documentation
