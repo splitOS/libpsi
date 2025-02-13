@@ -1,13 +1,13 @@
 # libpsi
 > The library for the PSI package manager.
 
-# Hierarchy
-## Documentation
+## Hierarchy
+### Documentation
 `README.md` - What you're reading right now. Good job!
 `COPYING` - The GNU GPL v3.
 
-## Sources
+### Sources
 `psi` - `libpsi` headers.
 
-# Credits/Inspiration
+## Credits/Inspiration
 [RPM](https://rpm.org) - Name inspiration.
