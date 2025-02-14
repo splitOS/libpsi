@@ -10,9 +10,8 @@
 `psi` - `libpsi` headers.
 
 ### Headers
-`packages.hh` - Anything to do with the management of packages.  
-`dependencies.hh` - Dependency resolution.  
-`files.hh` - Extraction and creation of packages.  
+`database.hh` - Access and use the package database.
+`packages.hh` - Perform package operations on the system.
 
 ## Credits/Inspiration
 [RPM](https://rpm.org) - Name inspiration.

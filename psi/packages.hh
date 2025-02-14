@@ -1,9 +1,6 @@
 /*
 --== packages.hh ==--
-This header handles the common operations with packages:
-    - Installation
-    - Removal
-    - Purging
+Perform package operations on the system.
 Implementations in `packages.cc`.
 */
 
@@ -45,6 +42,9 @@ class Package {
             name(name), version(version),
             architecture(architecture), dependencies(dependencies),
             files(files), configurationFiles(configurationFiles) {}
+
+        // Create a new empty `Package` object.
+        Package();
 
         // Install this package to the system.
         bool install();
